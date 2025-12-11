@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/LKQMLR/P01-Cityvap#readme",
+  "bugs": {
+    "url": "https://github.com/LKQMLR/P01-Cityvap/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LKQMLR/P01-Cityvap.git"
+  },
+  "license": "ISC",
+  "author": "LKQMLR",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  }
+}
