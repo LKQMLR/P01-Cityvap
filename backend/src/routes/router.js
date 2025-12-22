@@ -1,9 +1,8 @@
 import { Router } from 'express'
+import { addAdmin } from '../controllers/adminController.js'
 
 const router = Router()
 
-router.get('/', (req, res) => {
-  res.send('HELLO WORLD FROM ROUTER')
-})
+router.post('/api/admins', addAdmin)
 
 export default router
